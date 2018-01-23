@@ -16,66 +16,32 @@ namespace NuminoLabs.PMTool.Data.Context
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<User>(entity =>
-            {
-                entity.ToTable(name: "User");
+            modelBuilder.Entity<User>(entity =>{entity.ToTable(name: "User");
             });
 
-            modelBuilder.Entity<IdentityRole>(entity =>
-            {
-                entity.ToTable(name: "Role");
-            });
-            modelBuilder.Entity<IdentityUserRole<string>>(entity =>
-            {
-                entity.ToTable("UserRoles");
-                //in case you chagned the TKey type
-                //  entity.HasKey(key => new { key.UserId, key.RoleId });
-            });
-
-            modelBuilder.Entity<IdentityUserClaim<string>>(entity =>
-            {
-                entity.ToTable("UserClaims");
-            });
-
-            modelBuilder.Entity<IdentityUserLogin<string>>(entity =>
-            {
-                entity.ToTable("UserLogins");
-                //in case you chagned the TKey type
-                //  entity.HasKey(key => new { key.ProviderKey, key.LoginProvider });       
-            });
-
-            modelBuilder.Entity<IdentityRoleClaim<string>>(entity =>
-            {
-                entity.ToTable("RoleClaims");
-
-            });
-
-            modelBuilder.Entity<IdentityUserToken<string>>(entity =>
-            {
-                entity.ToTable("UserTokens");
-                //in case you chagned the TKey type
-                // entity.HasKey(key => new { key.UserId, key.LoginProvider, key.Name });
-
-            });
+            modelBuilder.Entity<IdentityRole>(entity => {entity.ToTable(name: "Role");});
+            modelBuilder.Entity<IdentityUserRole<string>>(entity => {entity.ToTable("UserRoles");});
+            modelBuilder.Entity<IdentityUserClaim<string>>(entity => {entity.ToTable("UserClaims");});
+            modelBuilder.Entity<IdentityUserLogin<string>>(entity => {entity.ToTable("UserLogins");});
+            modelBuilder.Entity<IdentityRoleClaim<string>>(entity => {entity.ToTable("RoleClaims");});
+            modelBuilder.Entity<IdentityUserToken<string>>(entity => {entity.ToTable("UserTokens");});
+            modelBuilder.Entity<User>(entity => entity.Property(m => m.Id).HasMaxLength(80));
+            modelBuilder.Entity<IdentityRole>(entity => entity.Property(m => m.Id).HasMaxLength(80));
+            modelBuilder.Entity<IdentityUserLogin<string>>(entity => entity.Property(m => m.LoginProvider).HasMaxLength(80));
+            modelBuilder.Entity<IdentityUserLogin<string>>(entity => entity.Property(m => m.ProviderKey).HasMaxLength(80));
+            modelBuilder.Entity<IdentityUserLogin<string>>(entity => entity.Property(m => m.UserId).HasMaxLength(80));
+            modelBuilder.Entity<IdentityUserRole<string>>(entity => entity.Property(m => m.UserId).HasMaxLength(80));
+            modelBuilder.Entity<IdentityUserRole<string>>(entity => entity.Property(m => m.RoleId).HasMaxLength(80));
+            modelBuilder.Entity<IdentityUserToken<string>>(entity => entity.Property(m => m.UserId).HasMaxLength(80));
+            modelBuilder.Entity<IdentityUserToken<string>>(entity => entity.Property(m => m.LoginProvider).HasMaxLength(80));
+            modelBuilder.Entity<IdentityUserToken<string>>(entity => entity.Property(m => m.Name).HasMaxLength(80));
+            modelBuilder.Entity<IdentityUserClaim<string>>(entity => entity.Property(m => m.Id).HasMaxLength(80));
+            modelBuilder.Entity<IdentityUserClaim<string>>(entity => entity.Property(m => m.UserId).HasMaxLength(80));
+            modelBuilder.Entity<IdentityRoleClaim<string>>(entity => entity.Property(m => m.Id).HasMaxLength(80));
+            modelBuilder.Entity<IdentityRoleClaim<string>>(entity => entity.Property(m => m.RoleId).HasMaxLength(80));
 
             new ProjectConfiguration(modelBuilder.Entity<Project>());
 
         }
-
-        //public PMToolDbContext(DbContextOptions<PMToolDbContext> options) : base(options)
-        //{
-
-        //}
-        //public DbSet<Project> Projects { get; set; }
-
-        //public virtual void Commit()
-        //{
-        //    base.SaveChanges();
-        //}
-
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.AddConfiguration(new ProjectConfiguration());
-        //}
     }
 }

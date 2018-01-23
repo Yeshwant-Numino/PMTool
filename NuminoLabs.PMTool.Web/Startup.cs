@@ -47,8 +47,12 @@ namespace NuminoLabs.PMTool.Web
             //services.AddDbContext<ApplicationDbContext>(options =>
             //    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+            //services.AddDbContext<PMToolDbContext>(options =>
+            //   options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
             services.AddDbContext<PMToolDbContext>(options =>
-               options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            options.UseMySQL(Configuration.GetConnectionString("DefaultConnection")));
+
 
             services.AddIdentity<User, IdentityRole>()
                 .AddEntityFrameworkStores<PMToolDbContext>()
