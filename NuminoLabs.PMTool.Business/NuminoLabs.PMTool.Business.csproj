@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NuminoLabs.PMTool.Data\NuminoLabs.PMTool.Data.csproj" />
+    <ProjectReference Include="..\NuminoLabs.PMTool.Model\NuminoLabs.PMTool.Model.csproj" />
+  </ItemGroup>
+
+</Project>
