@@ -16,6 +16,8 @@ using NuminoLabs.PMTool.Data.Infrastructure;
 using NuminoLabs.PMTool.Business.Interface;
 using NuminoLabs.PMTool.Business.Service;
 using NuminoLabs.PMTool.Model.Entity;
+using Serilog;
+using System.IO;
 
 namespace NuminoLabs.PMTool.Web
 {
@@ -36,6 +38,11 @@ namespace NuminoLabs.PMTool.Web
 
             builder.AddEnvironmentVariables();
             Configuration = builder.Build();
+
+            Log.Logger = new LoggerConfiguration()
+       .MinimumLevel.Debug()
+       .WriteTo.RollingFile(Path.Combine(env.ContentRootPath, "log-{Date}.txt"))
+       .CreateLogger();
         }
 
         public IConfigurationRoot Configuration { get; }
@@ -72,6 +79,7 @@ namespace NuminoLabs.PMTool.Web
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
+            loggerFactory.AddSerilog();
 
             if (env.IsDevelopment())
             {

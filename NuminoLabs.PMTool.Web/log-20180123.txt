@@ -1,0 +1,278 @@
+2018-01-23 19:34:47.399 +05:30 [Information] User profile is available. Using '"C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-01-23 19:34:47.614 +05:30 [Debug] Hosting starting
+2018-01-23 19:34:48.064 +05:30 [Debug] Hosting started
+2018-01-23 19:34:48.132 +05:30 [Debug] Connection id ""0HLB2D91NHFC8"" started.
+2018-01-23 19:34:48.132 +05:30 [Debug] Connection id ""0HLB2D91NHFC9"" started.
+2018-01-23 19:34:48.548 +05:30 [Information] Request starting HTTP/1.1 DEBUG http://localhost:57883/  0
+2018-01-23 19:34:48.579 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:57883/  
+2018-01-23 19:34:49.115 +05:30 [Debug] Connection id ""0HLB2D91NHFC8"" completed keep alive response.
+2018-01-23 19:34:49.115 +05:30 [Debug] The request path "/" does not match a supported file type
+2018-01-23 19:34:49.142 +05:30 [Information] Request finished in 731.7941ms 200 
+2018-01-23 19:34:49.597 +05:30 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2018-01-23 19:34:49.848 +05:30 [Debug] Executing action "NuminoLabs.PMTool.Web.Controllers.HomeController.Index (NuminoLabs.PMTool.Web)"
+2018-01-23 19:34:50.069 +05:30 [Information] Executing action method "NuminoLabs.PMTool.Web.Controllers.HomeController.Index (NuminoLabs.PMTool.Web)" with arguments (null) - ModelState is Valid
+2018-01-23 19:34:50.083 +05:30 [Debug] Executed action method "NuminoLabs.PMTool.Web.Controllers.HomeController.Index (NuminoLabs.PMTool.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult".
+2018-01-23 19:34:50.339 +05:30 [Debug] View lookup cache miss for view '"Index"' in controller '"Home"'.
+2018-01-23 19:34:50.392 +05:30 [Debug] Code generation for the Razor file at '"/Views/Home/Index.cshtml"' started.
+2018-01-23 19:34:51.396 +05:30 [Debug] Code generation for the Razor file at '"/Views/Home/Index.cshtml"' completed in 972.532ms.
+2018-01-23 19:34:51.436 +05:30 [Debug] Compilation of the generated code for the Razor file at '"/Views/Home/Index.cshtml"' started.
+2018-01-23 19:34:54.219 +05:30 [Debug] Compilation of the generated code for the Razor file at '"/Views/Home/Index.cshtml"' completed in 2779.3857ms.
+2018-01-23 19:34:54.246 +05:30 [Debug] Code generation for the Razor file at '"/Views/_ViewStart.cshtml"' started.
+2018-01-23 19:34:54.267 +05:30 [Debug] Code generation for the Razor file at '"/Views/_ViewStart.cshtml"' completed in 18.0705ms.
+2018-01-23 19:34:54.270 +05:30 [Debug] Compilation of the generated code for the Razor file at '"/Views/_ViewStart.cshtml"' started.
+2018-01-23 19:34:54.350 +05:30 [Debug] Compilation of the generated code for the Razor file at '"/Views/_ViewStart.cshtml"' completed in 77.0191ms.
+2018-01-23 19:34:54.368 +05:30 [Debug] The view '"Index"' was found.
+2018-01-23 19:34:54.377 +05:30 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-23 19:34:54.610 +05:30 [Debug] View lookup cache miss for view '"_Layout"' in controller '"Home"'.
+2018-01-23 19:34:54.617 +05:30 [Debug] Code generation for the Razor file at '"/Views/Shared/_Layout.cshtml"' started.
+2018-01-23 19:34:54.738 +05:30 [Debug] Code generation for the Razor file at '"/Views/Shared/_Layout.cshtml"' completed in 118.0704ms.
+2018-01-23 19:34:54.742 +05:30 [Debug] Compilation of the generated code for the Razor file at '"/Views/Shared/_Layout.cshtml"' started.
+2018-01-23 19:34:55.040 +05:30 [Debug] Compilation of the generated code for the Razor file at '"/Views/Shared/_Layout.cshtml"' completed in 294.5569ms.
+2018-01-23 19:34:55.195 +05:30 [Debug] View lookup cache miss for view '"_LoginPartial"' in controller '"Home"'.
+2018-01-23 19:34:55.203 +05:30 [Debug] Code generation for the Razor file at '"/Views/Shared/_LoginPartial.cshtml"' started.
+2018-01-23 19:34:55.250 +05:30 [Debug] Code generation for the Razor file at '"/Views/Shared/_LoginPartial.cshtml"' completed in 43.8563ms.
+2018-01-23 19:34:55.253 +05:30 [Debug] Compilation of the generated code for the Razor file at '"/Views/Shared/_LoginPartial.cshtml"' started.
+2018-01-23 19:34:55.351 +05:30 [Debug] Compilation of the generated code for the Razor file at '"/Views/Shared/_LoginPartial.cshtml"' completed in 94.5331ms.
+2018-01-23 19:34:55.921 +05:30 [Information] Executed action "NuminoLabs.PMTool.Web.Controllers.HomeController.Index (NuminoLabs.PMTool.Web)" in 6062.6963ms
+2018-01-23 19:34:56.035 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:57883/css/site.css  
+2018-01-23 19:34:56.064 +05:30 [Debug] Connection id ""0HLB2D91NHFC9"" completed keep alive response.
+2018-01-23 19:34:56.075 +05:30 [Information] Request finished in 7679.8716ms 200 text/html; charset=utf-8
+2018-01-23 19:34:56.115 +05:30 [Information] The file "/css/site.css" was not modified
+2018-01-23 19:34:56.131 +05:30 [Debug] Handled. Status code: 304 File: "/css/site.css"
+2018-01-23 19:34:56.138 +05:30 [Debug] Connection id ""0HLB2D91NHFC8"" completed keep alive response.
+2018-01-23 19:34:56.148 +05:30 [Information] Request finished in 112.8645ms 304 text/css
+2018-01-23 19:35:00.787 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:57883/Account/Login  
+2018-01-23 19:35:00.792 +05:30 [Debug] The request path "/Account/Login" does not match a supported file type
+2018-01-23 19:35:00.796 +05:30 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2018-01-23 19:35:00.821 +05:30 [Debug] Action '"NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)"' with id '"3dc218ae-aa03-4e94-b49b-443653d781ea"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+2018-01-23 19:35:00.833 +05:30 [Debug] Executing action "NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)"
+2018-01-23 19:35:01.022 +05:30 [Information] Executing action method "NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)" with arguments ([""]) - ModelState is Valid
+2018-01-23 19:35:01.081 +05:30 [Information] AuthenticationScheme: "Identity.External" signed out.
+2018-01-23 19:35:01.085 +05:30 [Debug] Executed action method "NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult".
+2018-01-23 19:35:01.089 +05:30 [Debug] View lookup cache miss for view '"Login"' in controller '"Account"'.
+2018-01-23 19:35:01.111 +05:30 [Debug] Code generation for the Razor file at '"/Views/Account/Login.cshtml"' started.
+2018-01-23 19:35:01.208 +05:30 [Debug] Code generation for the Razor file at '"/Views/Account/Login.cshtml"' completed in 94.2058ms.
+2018-01-23 19:35:01.211 +05:30 [Debug] Compilation of the generated code for the Razor file at '"/Views/Account/Login.cshtml"' started.
+2018-01-23 19:35:01.657 +05:30 [Debug] Compilation of the generated code for the Razor file at '"/Views/Account/Login.cshtml"' completed in 442.6461ms.
+2018-01-23 19:35:01.662 +05:30 [Debug] The view '"Login"' was found.
+2018-01-23 19:35:01.668 +05:30 [Information] Executing ViewResult, running view at path "/Views/Account/Login.cshtml".
+2018-01-23 19:35:01.751 +05:30 [Debug] Reading data from file '"C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-1cb3557e-c7de-4a75-878c-137361f4a7a5.xml"'.
+2018-01-23 19:35:01.780 +05:30 [Debug] Found key {1cb3557e-c7de-4a75-878c-137361f4a7a5}.
+2018-01-23 19:35:01.814 +05:30 [Debug] Considering key {1cb3557e-c7de-4a75-878c-137361f4a7a5} with expiration date 2018-04-16 07:56:30Z as default key.
+2018-01-23 19:35:01.836 +05:30 [Debug] Decrypting secret element using Windows DPAPI.
+2018-01-23 19:35:01.872 +05:30 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2018-01-23 19:35:01.900 +05:30 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2018-01-23 19:35:01.946 +05:30 [Debug] Using key {1cb3557e-c7de-4a75-878c-137361f4a7a5} as the default key.
+2018-01-23 19:35:02.002 +05:30 [Debug] A new antiforgery cookie token was created.
+2018-01-23 19:35:02.300 +05:30 [Debug] View lookup cache miss for view '"_Layout"' in controller '"Account"'.
+2018-01-23 19:35:02.305 +05:30 [Debug] View lookup cache miss for view '"_LoginPartial"' in controller '"Account"'.
+2018-01-23 19:35:02.312 +05:30 [Debug] View lookup cache miss for view '"_ValidationScriptsPartial"' in controller '"Account"'.
+2018-01-23 19:35:02.327 +05:30 [Debug] Code generation for the Razor file at '"/Views/Shared/_ValidationScriptsPartial.cshtml"' started.
+2018-01-23 19:35:02.341 +05:30 [Debug] Code generation for the Razor file at '"/Views/Shared/_ValidationScriptsPartial.cshtml"' completed in 10.5278ms.
+2018-01-23 19:35:02.345 +05:30 [Debug] Compilation of the generated code for the Razor file at '"/Views/Shared/_ValidationScriptsPartial.cshtml"' started.
+2018-01-23 19:35:02.436 +05:30 [Debug] Compilation of the generated code for the Razor file at '"/Views/Shared/_ValidationScriptsPartial.cshtml"' completed in 86.0154ms.
+2018-01-23 19:35:02.484 +05:30 [Information] Executed action "NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)" in 1643.1667ms
+2018-01-23 19:35:02.499 +05:30 [Debug] Connection id ""0HLB2D91NHFC9"" completed keep alive response.
+2018-01-23 19:35:02.516 +05:30 [Information] Request finished in 1719.1648ms 200 text/html; charset=utf-8
+2018-01-23 19:35:19.542 +05:30 [Information] Request starting HTTP/1.1 POST http://localhost:57883/Account/Login application/x-www-form-urlencoded 255
+2018-01-23 19:35:19.548 +05:30 [Debug] "POST" requests are not supported
+2018-01-23 19:35:19.551 +05:30 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2018-01-23 19:35:19.556 +05:30 [Debug] Action '"NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)"' with id '"8e8125b2-cdd5-4b8c-88c8-d737bef0a093"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+2018-01-23 19:35:19.563 +05:30 [Debug] Executing action "NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)"
+2018-01-23 19:35:19.653 +05:30 [Debug] Antiforgery successfully validated a request.
+2018-01-23 19:35:19.804 +05:30 [Information] Executing action method "NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)" with arguments (["NuminoLabs.PMTool.Web.Models.AccountViewModels.LoginViewModel", ""]) - ModelState is Valid
+2018-01-23 19:35:21.303 +05:30 [Debug] Compiling query model: 
+'(from User u in DbSet<User>
+where u.NormalizedUserName == __normalizedUserName_0
+select u)
+.FirstOrDefault()'
+2018-01-23 19:35:21.349 +05:30 [Debug] Optimized query model: 
+'(from User u in DbSet<User>
+where u.NormalizedUserName == __normalizedUserName_0
+select u)
+.FirstOrDefault()'
+2018-01-23 19:35:21.904 +05:30 [Debug] TRACKED: True
+(QueryContext queryContext) => IAsyncEnumerable<User> _ToSequence(
+    task: Task<User> _FirstOrDefault(
+        source: IAsyncEnumerable<User> _ShapedQuery(
+            queryContext: queryContext, 
+            shaperCommandContext: SelectExpression: 
+                SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+                FROM `User` AS `u`
+                WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+                LIMIT 1
+            , 
+            shaper: UnbufferedEntityShaper<User>
+        )
+        , 
+        cancellationToken: queryContext.CancellationToken
+    )
+)
+
+2018-01-23 19:35:22.035 +05:30 [Debug] Opening connection to database 'PMOTool' on server '127.0.0.1'.
+2018-01-23 19:35:22.549 +05:30 [Debug] Closing connection to database 'PMOTool' on server '127.0.0.1'.
+2018-01-23 19:35:22.873 +05:30 [Debug] Compiling query model: 
+'from IdentityUserRole<string> userRole in DbSet<IdentityUserRole<string>>
+join IdentityRole role in DbSet<IdentityRole>
+on userRole.RoleId equals role.Id
+where bool userRole.UserId.Equals(
+    other: __userId_0
+)
+
+select role.Name'
+2018-01-23 19:35:22.893 +05:30 [Debug] Optimized query model: 
+'from IdentityUserRole<string> userRole in DbSet<IdentityUserRole<string>>
+join IdentityRole role in DbSet<IdentityRole>
+on userRole.RoleId equals role.Id
+where bool userRole.UserId.Equals(
+    other: __userId_0
+)
+
+select role.Name'
+2018-01-23 19:35:22.999 +05:30 [Debug] TRACKED: True
+(QueryContext queryContext) => IAsyncEnumerable<string> _Select(
+    source: IAsyncEnumerable<TransparentIdentifier<ValueBuffer, ValueBuffer>> _ShapedQuery(
+        queryContext: queryContext, 
+        shaperCommandContext: SelectExpression: 
+            SELECT `role`.`Name`
+            FROM `UserRoles` AS `userRole`
+            INNER JOIN `Role` AS `role` ON `userRole`.`RoleId` = `role`.`Id`
+            WHERE `userRole`.`UserId` = @__userId_0
+        , 
+        shaper: CompositeShaper`3
+    )
+    , 
+    selector: (TransparentIdentifier<ValueBuffer, ValueBuffer> t0) => string TryReadValue(
+        valueBuffer: t0.Inner, 
+        index: 0, 
+        property: null
+    )
+)
+
+2018-01-23 19:35:23.012 +05:30 [Debug] Opening connection to database 'PMOTool' on server '127.0.0.1'.
+2018-01-23 19:35:23.021 +05:30 [Debug] Closing connection to database 'PMOTool' on server '127.0.0.1'.
+2018-01-23 19:35:23.044 +05:30 [Debug] Compiling query model: 
+'from IdentityUserClaim<string> uc in DbSet<IdentityUserClaim<string>>
+where bool uc.UserId.Equals(
+    other: __user_Id_0
+)
+
+select Claim uc.ToClaim()
+'
+2018-01-23 19:35:23.047 +05:30 [Debug] Optimized query model: 
+'from IdentityUserClaim<string> uc in DbSet<IdentityUserClaim<string>>
+where bool uc.UserId.Equals(
+    other: __user_Id_0
+)
+
+select Claim uc.ToClaim()
+'
+2018-01-23 19:35:23.066 +05:30 [Debug] TRACKED: True
+(QueryContext queryContext) => IAsyncEnumerable<Claim> _Select(
+    source: IAsyncEnumerable<IdentityUserClaim<string>> _ShapedQuery(
+        queryContext: queryContext, 
+        shaperCommandContext: SelectExpression: 
+            SELECT `uc`.`Id`, `uc`.`ClaimType`, `uc`.`ClaimValue`, `uc`.`UserId`
+            FROM `UserClaims` AS `uc`
+            WHERE `uc`.`UserId` = @__user_Id_0
+        , 
+        shaper: UnbufferedEntityShaper<IdentityUserClaim`1>
+    )
+    , 
+    selector: (IdentityUserClaim<string> uc) => Claim uc.ToClaim()
+)
+
+2018-01-23 19:35:23.071 +05:30 [Debug] Opening connection to database 'PMOTool' on server '127.0.0.1'.
+2018-01-23 19:35:23.078 +05:30 [Debug] Closing connection to database 'PMOTool' on server '127.0.0.1'.
+2018-01-23 19:35:23.125 +05:30 [Information] AuthenticationScheme: "Identity.Application" signed in.
+2018-01-23 19:35:23.134 +05:30 [Information] User logged in.
+2018-01-23 19:35:23.142 +05:30 [Debug] Executed action method "NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult".
+2018-01-23 19:35:23.153 +05:30 [Information] Executing RedirectResult, redirecting to "/".
+2018-01-23 19:35:23.162 +05:30 [Information] Executed action "NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)" in 3591.1218ms
+2018-01-23 19:35:23.168 +05:30 [Debug] Connection id ""0HLB2D91NHFC8"" completed keep alive response.
+2018-01-23 19:35:23.220 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:57883/  
+2018-01-23 19:35:23.220 +05:30 [Information] Request finished in 3639.8055ms 302 
+2018-01-23 19:35:23.228 +05:30 [Debug] The request path "/" does not match a supported file type
+2018-01-23 19:35:23.267 +05:30 [Information] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application".
+2018-01-23 19:35:23.270 +05:30 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2018-01-23 19:35:23.273 +05:30 [Debug] Executing action "NuminoLabs.PMTool.Web.Controllers.HomeController.Index (NuminoLabs.PMTool.Web)"
+2018-01-23 19:35:23.326 +05:30 [Information] Executing action method "NuminoLabs.PMTool.Web.Controllers.HomeController.Index (NuminoLabs.PMTool.Web)" with arguments (null) - ModelState is Valid
+2018-01-23 19:35:23.330 +05:30 [Debug] Executed action method "NuminoLabs.PMTool.Web.Controllers.HomeController.Index (NuminoLabs.PMTool.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult".
+2018-01-23 19:35:23.336 +05:30 [Debug] View lookup cache hit for view '"Index"' in controller '"Home"'.
+2018-01-23 19:35:23.339 +05:30 [Debug] The view '"Index"' was found.
+2018-01-23 19:35:23.346 +05:30 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-23 19:35:23.350 +05:30 [Debug] View lookup cache hit for view '"_Layout"' in controller '"Home"'.
+2018-01-23 19:35:23.354 +05:30 [Debug] View lookup cache hit for view '"_LoginPartial"' in controller '"Home"'.
+2018-01-23 19:35:23.393 +05:30 [Debug] An antiforgery cookie token was reused.
+2018-01-23 19:35:23.449 +05:30 [Information] Executed action "NuminoLabs.PMTool.Web.Controllers.HomeController.Index (NuminoLabs.PMTool.Web)" in 170.2415ms
+2018-01-23 19:35:23.469 +05:30 [Debug] Connection id ""0HLB2D91NHFC9"" completed keep alive response.
+2018-01-23 19:35:23.478 +05:30 [Information] Request finished in 300.2464ms 200 text/html; charset=utf-8
+2018-01-23 19:35:25.768 +05:30 [Information] Request starting HTTP/1.1 POST http://localhost:57883/Account/Logout application/x-www-form-urlencoded 225
+2018-01-23 19:35:25.772 +05:30 [Debug] "POST" requests are not supported
+2018-01-23 19:35:25.784 +05:30 [Information] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "Identity.Application".
+2018-01-23 19:35:25.787 +05:30 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2018-01-23 19:35:25.792 +05:30 [Debug] Executing action "NuminoLabs.PMTool.Web.Controllers.AccountController.Logout (NuminoLabs.PMTool.Web)"
+2018-01-23 19:35:25.825 +05:30 [Information] Authorization was successful for user: "yeshwant@numinolabs.com".
+2018-01-23 19:35:25.837 +05:30 [Debug] Antiforgery successfully validated a request.
+2018-01-23 19:35:25.883 +05:30 [Information] Executing action method "NuminoLabs.PMTool.Web.Controllers.AccountController.Logout (NuminoLabs.PMTool.Web)" with arguments (null) - ModelState is Valid
+2018-01-23 19:35:25.897 +05:30 [Information] AuthenticationScheme: "Identity.Application" signed out.
+2018-01-23 19:35:25.906 +05:30 [Information] AuthenticationScheme: "Identity.External" signed out.
+2018-01-23 19:35:25.912 +05:30 [Information] AuthenticationScheme: "Identity.TwoFactorUserId" signed out.
+2018-01-23 19:35:25.919 +05:30 [Information] User logged out.
+2018-01-23 19:35:25.922 +05:30 [Debug] Executed action method "NuminoLabs.PMTool.Web.Controllers.AccountController.Logout (NuminoLabs.PMTool.Web)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult".
+2018-01-23 19:35:25.929 +05:30 [Information] Executing RedirectResult, redirecting to "/".
+2018-01-23 19:35:25.935 +05:30 [Information] Executed action "NuminoLabs.PMTool.Web.Controllers.AccountController.Logout (NuminoLabs.PMTool.Web)" in 136.3877ms
+2018-01-23 19:35:25.939 +05:30 [Debug] Connection id ""0HLB2D91NHFC8"" completed keep alive response.
+2018-01-23 19:35:25.969 +05:30 [Information] Request finished in 179.2519ms 302 
+2018-01-23 19:35:25.974 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:57883/  
+2018-01-23 19:35:25.982 +05:30 [Debug] The request path "/" does not match a supported file type
+2018-01-23 19:35:25.985 +05:30 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2018-01-23 19:35:25.989 +05:30 [Debug] Executing action "NuminoLabs.PMTool.Web.Controllers.HomeController.Index (NuminoLabs.PMTool.Web)"
+2018-01-23 19:35:26.038 +05:30 [Information] Executing action method "NuminoLabs.PMTool.Web.Controllers.HomeController.Index (NuminoLabs.PMTool.Web)" with arguments (null) - ModelState is Valid
+2018-01-23 19:35:26.042 +05:30 [Debug] Executed action method "NuminoLabs.PMTool.Web.Controllers.HomeController.Index (NuminoLabs.PMTool.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult".
+2018-01-23 19:35:26.046 +05:30 [Debug] View lookup cache hit for view '"Index"' in controller '"Home"'.
+2018-01-23 19:35:26.050 +05:30 [Debug] The view '"Index"' was found.
+2018-01-23 19:35:26.057 +05:30 [Information] Executing ViewResult, running view at path "/Views/Home/Index.cshtml".
+2018-01-23 19:35:26.062 +05:30 [Debug] View lookup cache hit for view '"_Layout"' in controller '"Home"'.
+2018-01-23 19:35:26.068 +05:30 [Debug] View lookup cache hit for view '"_LoginPartial"' in controller '"Home"'.
+2018-01-23 19:35:26.090 +05:30 [Information] Executed action "NuminoLabs.PMTool.Web.Controllers.HomeController.Index (NuminoLabs.PMTool.Web)" in 91.6053ms
+2018-01-23 19:35:26.104 +05:30 [Debug] Connection id ""0HLB2D91NHFC9"" completed keep alive response.
+2018-01-23 19:35:26.116 +05:30 [Information] Request finished in 160.2086ms 200 text/html; charset=utf-8
+2018-01-23 19:35:27.614 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:57883/Account/Login  
+2018-01-23 19:35:27.618 +05:30 [Debug] The request path "/Account/Login" does not match a supported file type
+2018-01-23 19:35:27.621 +05:30 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2018-01-23 19:35:27.624 +05:30 [Debug] Action '"NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)"' with id '"3dc218ae-aa03-4e94-b49b-443653d781ea"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+2018-01-23 19:35:27.629 +05:30 [Debug] Executing action "NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)"
+2018-01-23 19:35:27.670 +05:30 [Information] Executing action method "NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)" with arguments ([""]) - ModelState is Valid
+2018-01-23 19:35:27.676 +05:30 [Information] AuthenticationScheme: "Identity.External" signed out.
+2018-01-23 19:35:27.679 +05:30 [Debug] Executed action method "NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult".
+2018-01-23 19:35:27.683 +05:30 [Debug] View lookup cache hit for view '"Login"' in controller '"Account"'.
+2018-01-23 19:35:27.686 +05:30 [Debug] The view '"Login"' was found.
+2018-01-23 19:35:27.692 +05:30 [Information] Executing ViewResult, running view at path "/Views/Account/Login.cshtml".
+2018-01-23 19:35:27.702 +05:30 [Debug] An antiforgery cookie token was reused.
+2018-01-23 19:35:27.721 +05:30 [Debug] View lookup cache hit for view '"_Layout"' in controller '"Account"'.
+2018-01-23 19:35:27.726 +05:30 [Debug] View lookup cache hit for view '"_LoginPartial"' in controller '"Account"'.
+2018-01-23 19:35:27.730 +05:30 [Debug] View lookup cache hit for view '"_ValidationScriptsPartial"' in controller '"Account"'.
+2018-01-23 19:35:27.745 +05:30 [Information] Executed action "NuminoLabs.PMTool.Web.Controllers.AccountController.Login (NuminoLabs.PMTool.Web)" in 109.8975ms
+2018-01-23 19:35:27.767 +05:30 [Debug] Connection id ""0HLB2D91NHFC8"" completed keep alive response.
+2018-01-23 19:35:27.782 +05:30 [Information] Request finished in 160.5975ms 200 text/html; charset=utf-8
+2018-01-23 19:35:29.484 +05:30 [Information] Request starting HTTP/1.1 GET http://localhost:57883/Account/ForgotPassword  
+2018-01-23 19:35:29.488 +05:30 [Debug] The request path "/Account/ForgotPassword" does not match a supported file type
+2018-01-23 19:35:29.492 +05:30 [Debug] Request successfully matched the route with name '"default"' and template '"{controller=Home}/{action=Index}/{id?}"'.
+2018-01-23 19:35:29.495 +05:30 [Debug] Action '"NuminoLabs.PMTool.Web.Controllers.AccountController.ForgotPassword (NuminoLabs.PMTool.Web)"' with id '"16c3b560-ee01-4ebe-a8d7-cb946afadde3"' did not match the constraint '"Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint"'
+2018-01-23 19:35:29.500 +05:30 [Debug] Executing action "NuminoLabs.PMTool.Web.Controllers.AccountController.ForgotPassword (NuminoLabs.PMTool.Web)"
+2018-01-23 19:35:29.538 +05:30 [Information] Executing action method "NuminoLabs.PMTool.Web.Controllers.AccountController.ForgotPassword (NuminoLabs.PMTool.Web)" with arguments (null) - ModelState is Valid
+2018-01-23 19:35:29.543 +05:30 [Debug] Executed action method "NuminoLabs.PMTool.Web.Controllers.AccountController.ForgotPassword (NuminoLabs.PMTool.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult".
+2018-01-23 19:35:29.546 +05:30 [Debug] View lookup cache miss for view '"ForgotPassword"' in controller '"Account"'.
+2018-01-23 19:35:29.561 +05:30 [Debug] Code generation for the Razor file at '"/Views/Account/ForgotPassword.cshtml"' started.
+2018-01-23 19:35:29.588 +05:30 [Debug] Code generation for the Razor file at '"/Views/Account/ForgotPassword.cshtml"' completed in 23.1719ms.
+2018-01-23 19:35:29.591 +05:30 [Debug] Compilation of the generated code for the Razor file at '"/Views/Account/ForgotPassword.cshtml"' started.
+2018-01-23 19:35:29.694 +05:30 [Debug] Compilation of the generated code for the Razor file at '"/Views/Account/ForgotPassword.cshtml"' completed in 99.8931ms.
+2018-01-23 19:35:29.698 +05:30 [Debug] The view '"ForgotPassword"' was found.
+2018-01-23 19:35:29.705 +05:30 [Information] Executing ViewResult, running view at path "/Views/Account/ForgotPassword.cshtml".
+2018-01-23 19:35:29.716 +05:30 [Debug] View lookup cache hit for view '"_Layout"' in controller '"Account"'.
+2018-01-23 19:35:29.719 +05:30 [Debug] View lookup cache hit for view '"_LoginPartial"' in controller '"Account"'.
+2018-01-23 19:35:29.726 +05:30 [Debug] View lookup cache hit for view '"_ValidationScriptsPartial"' in controller '"Account"'.
+2018-01-23 19:35:29.740 +05:30 [Information] Executed action "NuminoLabs.PMTool.Web.Controllers.AccountController.ForgotPassword (NuminoLabs.PMTool.Web)" in 232.6193ms
+2018-01-23 19:35:29.750 +05:30 [Debug] Connection id ""0HLB2D91NHFC9"" completed keep alive response.
+2018-01-23 19:35:29.760 +05:30 [Information] Request finished in 275.0852ms 200 text/html; charset=utf-8
